@@ -7,8 +7,6 @@ import java.util.Random;
 
 public class WordDictionary {
     public String getRandomWord() {
-        System.out.println("\nSearching for word in dictionary... ");
-
         Random random = new Random();
         int nLine = random.nextInt(100) + 1;
 
