@@ -6,7 +6,7 @@ public class Game {
     private final WordDictionary wordDictionary;
 
     public void run() {
-        wordDictionary.getRandomWord();
+        System.out.println(wordDictionary.getRandomWord());
     }
 
     public Game(WordDictionary wordDictionary) {
