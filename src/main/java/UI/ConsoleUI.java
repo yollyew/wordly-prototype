@@ -16,14 +16,14 @@ public class ConsoleUI {
 
         switch (input) {
             case "1" -> showGameMenu();
-            case "2" -> System.exit(0);
+            case "0" -> System.exit(0);
         }
     }
 
     private void showStartMenu() {
         System.out.println("\nMain Menu: ");
         System.out.println("1. Start the game. ");
-        System.out.println("2. Exit. ");
+        System.out.println("0. Exit. ");
         System.out.print("\nEnter option number: ");
     }
 

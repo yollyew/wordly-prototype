@@ -10,6 +10,8 @@ public class Main {
         Game gameSession = new Game(wordDictionary);
         ConsoleUI consoleUI = new ConsoleUI(gameSession);
 
-        while (true) consoleUI.run();
+        while (true) {
+            consoleUI.run();
+        }
     }
 }
